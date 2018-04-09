@@ -34,7 +34,7 @@ header = "Objects to delete"
 
 #Login to ESM print time and mount the tree
 esm = ESM()
-esm.login('192.168.19.200', 'NGCP', 'Password(TOBECHANGED)')
+esm.login('10.10.10.10', 'NGCP', 'Password(TOBECHANGED)')
 print(esm.time())
 tree = DevTree()
 print(len(tree))
